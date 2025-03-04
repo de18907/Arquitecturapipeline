@@ -1,0 +1,10 @@
+my_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      host: clickhouse_server
+      user: default
+      password: ''
+      database: olap_db
+      port: 9000
